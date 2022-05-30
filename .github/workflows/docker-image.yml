@@ -17,4 +17,4 @@ jobs:
     - name: Build the Docker image
       run: docker build . -t aidanmackey/ray-castings
     - name: Push the Docker image
-      run: docker image push --all-tags aidanmackey/ray-casting
+      run: docker image ls
