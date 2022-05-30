@@ -1,5 +1,5 @@
 # Raycasting-Engine-WebGL-JavaScript
-Ray-casting engine developed in JavaScript using WebGL
+Ray-casting engine developed in JavaScript using WebGL and deployed using Docker
 
 ## Getting started
 
