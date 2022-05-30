@@ -16,5 +16,7 @@ jobs:
     - uses: actions/checkout@v3
     - name: Build the Docker image
       run: docker build . -t aidanmackey/ray-casting
+    - name: Log into Docker
+      run: docker login -u aidanmackey -p ${{ secrets.DOCKERHUB_PASSWORD}}
     - name: Push the Docker image
       run: docker image push --all-tags aidanmackey/ray-casting
