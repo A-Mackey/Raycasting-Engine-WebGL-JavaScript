@@ -15,7 +15,7 @@ import {
 	modify_ray_lengths
 } from '../vars.js'
 
-const cell_buffer = 0.0025;
+const cell_buffer = 0.00025;
 const player_buffer = 0.01;
 const lead_buffer = 0.005;
 
