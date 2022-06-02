@@ -3,7 +3,7 @@ Ray-casting engine developed in JavaScript using WebGL and deployed using Docker
 
 ## Getting started
 
-## Prerequisits
+## Requirements
 - Node.JS
 - Modern web browser of your choice
 
