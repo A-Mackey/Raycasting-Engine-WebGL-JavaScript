@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "docker": "node scripts/docker.js"
   },
   "author": "Aidan Mackey",
   "license": "ISC",

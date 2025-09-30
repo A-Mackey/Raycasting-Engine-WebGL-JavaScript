@@ -1,0 +1,13 @@
+services:
+  raycast-prod:
+    image: aidan-mackey-net-raycast
+    container_name: aidan-mackey-net-raycast
+    restart: always
+    ports:
+      - "4040:4040"
+    networks:
+      - website
+
+networks:
+  website:
+    external: true

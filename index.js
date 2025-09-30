@@ -1,5 +1,5 @@
 // Define constants
-const PORT = 8080;
+const PORT = 4040;
 const PATH = "./public/index.html"
 
 //   Import libraries
